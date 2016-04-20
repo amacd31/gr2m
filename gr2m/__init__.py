@@ -57,3 +57,7 @@ def gr2m(precip, potential_evap, params, states = None, return_state = False):
         return sims, {'production_store': production_store, 'routing_store': routing_store}
     else:
         return sims
+
+from ._version import get_versions
+__version__ = get_versions()['version']
+del get_versions
