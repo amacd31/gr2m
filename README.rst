@@ -1,6 +1,8 @@
 Python GR2M
 ===============
 
+|Build Status| |Code Coverage|
+
 Pure Python implementation of the GR2M hydrologic rainfall-runoff model.
 
 Dependencies
@@ -19,3 +21,9 @@ Mouelhi, S., Michel, C., Perrin, C., & Andréassian, V. (2006). Stepwise develop
 
 
 Operation of GR2M: http://webgr.irstea.fr/modeles/mensuel-gr2m/fonctionnement-gr2m/?lang=en
+
+.. |Build Status| image:: https://img.shields.io/travis/amacd31/gr2m/master.svg
+    :target: https://travis-ci.org/amacd31/gr2m
+
+.. |Code Coverage| image:: https://img.shields.io/coveralls/amacd31/gr2m/master.svg
+    :target: https://coveralls.io/github/amacd31/gr2m?branch=master
