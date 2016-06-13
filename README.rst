@@ -6,7 +6,11 @@ Pure Python implementation of the GR2M hydrologic rainfall-runoff model.
 Dependencies
 ------------
 
-Requires Python 2.6 or greater (mostly tested with Python 2.7 on Mac OS X).
+Requires Python 2.7 or 3.4 greater.
+
+If Cython is available the Python code will be compiled by Cython during
+installation. Running the unit tests requires numpy and pandas. These
+dependencies are all optional as the base code is pure Python.
 
 References
 ----------
