@@ -1,0 +1,12 @@
+[run]
+branch = True
+include = gr2m/**
+
+[report]
+include = gr2m/**
+omit = gr2m/_version.py
+
+exclude_lines =
+    raise NotImplementedError
+
+    if __name__ == .__main__.:
